@@ -48,9 +48,6 @@ function startTimer() {
     if (second > 9) {
         appendSec.innerHTML = second;
     }
-    else{
-        // appendSec.innerHTML = second
-    }
     if(second > 59) {
         minute++;
         second = 0;
