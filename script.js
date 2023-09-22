@@ -53,7 +53,7 @@ function startTimer() {
         second = 0;
         appendMin.innerHTML = "0" + minute;
     }
-    else{
+    if(minute > 9){
         appendMin.innerHTML =  minute;
     }
     if(minute > 59){
